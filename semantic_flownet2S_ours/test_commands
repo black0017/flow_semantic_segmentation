@@ -1,0 +1,38 @@
+# Example on MPISintel Clean   
+python2 main.py --inference --model FlowNet2S --save_flow --inference_dataset MpiSintelClean \
+--inference_dataset_root ./MPI-Sintel/test/clean \
+--resume ./MPI-Sintel/checkpoints
+
+
+# Example on MPISintel Clean   
+python main.py --inference --model FlowNet2 --save_flow --inference_dataset MpiSintelClean \
+--inference_dataset_root /path/to/mpi-sintel/clean/dataset \
+--resume /path/to/checkpoints
+
+
+python2 main.py --inference --model FlowNet2S --save_flow  --inference_dataset MpiSintelClean \
+--inference_dataset ./MPI-Sintel/test/clean  --resume ./MPI-Sintel/checkpoints
+
+
+python2 main.py --inference --model FlowNet2S --save_flow --inference_dataset MpiSintelClean \
+--inference_dataset_root ./MPI-Sintel/test/clean \
+--resume ./MPI-Sintel/checkpoints
+
+
+
+python2 main.py --inference --model FlowNet2S --save_flow \
+--inference_dataset MpiSintelClean --inference_dataset_root \
+./MPI-Sintel/test/clean/ambush_1 --resume ./MPI-Sintel/checkpoints \
+--skip_training --skip_validation
+
+
+
+
+sudo docker cp bc5d55aa6b28:/flownet2-pytorch/initrd.img /home/nikolas/Desktop 
+4500f566be1c:/flownet2/flownet2/models
+
+sudo docker cp 4500f566be1c:/flownet2/flownet2/models/flownet2-models-kitti.tar.gz /media/nikolas/0e58c42f-861d-4944-8b0e-5665f30c617d/FLOW_CHALLENGE/empty
+
+
+
+4500f566be1c:/flownet2/flownet2/models/FlowNet2-KITTI
