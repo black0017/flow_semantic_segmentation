@@ -43,7 +43,6 @@ A Dockerfile with all the above dependencies is available as in the original rep
     bash launch_docker.sh
 
 ## Reference 
-Original Flownet paper
 ````
 @InProceedings{IMKDB17,
   author       = "E. Ilg and N. Mayer and T. Saikia and M. Keuper and A. Dosovitskiy and T. Brox",
@@ -62,6 +61,15 @@ Original Flownet paper
   publisher = {GitHub},
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/NVIDIA/flownet2-pytorch}}
+}
+```
+```
+@inproceedings{zhao2017pyramid,
+  title={Pyramid scene parsing network},
+  author={Zhao, Hengshuang and Shi, Jianping and Qi, Xiaojuan and Wang, Xiaogang and Jia, Jiaya},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={2881--2890},
+  year={2017}
 }
 ```
 ## Acknowledgments
