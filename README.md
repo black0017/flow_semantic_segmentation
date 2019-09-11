@@ -1,6 +1,6 @@
 # Flownet2 with semantic segmentation on KITTI15 dataset
 
-#### Based on original Pytorch implementation of [FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://arxiv.org/abs/1612.01925). available at {https://github.com/NVIDIA/flownet2-pytorch}
+#### Based on original Pytorch implementation of [FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://arxiv.org/abs/1612.01925). available at https://github.com/NVIDIA/flownet2-pytorch
 
 
 ## Our contribution in the loss function
